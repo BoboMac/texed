@@ -1,0 +1,11 @@
+- arrow keys for moving in both normal and insert mode
+- while in NORMAL mode:
+  - press I to enter INSERT mode
+  - press F to enter FIND mode
+  - press X to delete the character the cursor is on
+  - press D twice to delete the whole line
+  - press U to undo and R to redo
+- while in INSERT mode:
+  - press ESC to enter NORMAL mode
+  - press CTRL-S to save
+  - press CTRL-F to find

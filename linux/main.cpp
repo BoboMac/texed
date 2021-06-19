@@ -3,23 +3,11 @@ Track list:
 - Wasn't born in Cicago - Gary Moore
 
 TODO:
-- put every function in the now-struct-then-class editorConfig
-- split everything in .h and .cpp files (editor.h, editor_output.cpp, editor_backend.cpp)
-- get rid of all the kilo occurences and use texed instead
-- make sure u changed it enought to not use a license
-- ???
-- profit
 - special binds for normal mode:
-  - qq for exitting
-  - f for finding
-  - u for undo, r for redo or smth
   - c for copy, p for paste
   - : for entering a command
-  - x to delete character (?)
-  - dd to delete line (? press x to doubt)
 
-- undo system (maybe use the GUI code?)
-  - line 1325
+- get rid of all the kilo occurences and use texed instead
 
 - refactor line 1212 (in a galaxy far far away)
 
@@ -56,7 +44,7 @@ int main(int argc, char **argv) {
 	editorConfig E;
 
     if (argc != 2) {
-        fprintf(stderr,"Usage: kilo <filename>\n");
+        fprintf(stderr,"Usage: texed <filename>\n");
         exit(1);
     }
 

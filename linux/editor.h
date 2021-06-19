@@ -174,7 +174,7 @@ void abFree(struct abuf *ab);
         saved_hl = NULL; \
     } \
 } while (0)
-#define KILO_QUIT_TIMES 3
+#define EDITOR_QUIT_TIMES 1
 
 int is_separator(int c);
 void disableRawMode(editorConfig *E, int fd);
